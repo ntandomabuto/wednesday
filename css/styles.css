@@ -69,7 +69,7 @@ i:first-of-type{
     color: blue;
 }
 
-i:only-of-type{
+p :is(i){
     color: peru;
 }
 
