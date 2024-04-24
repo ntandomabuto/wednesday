@@ -1,0 +1,93 @@
+table{
+    border: burlywood 2px solid;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+h2{
+    color: gray;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 1rem;
+    color: aliceblue;
+}
+
+.nav{
+    background-color: black;
+    text-align: center;
+}
+
+#main{
+    margin: 30px;
+    text-align: center;
+}
+
+aside >p{
+    color: dimgrey;
+    border: dotted 10px;
+}
+
+p +button ,button{
+    color: cornflowerblue;
+}
+
+p~article{
+    background-color: brown;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+#hover:hover h3{
+    cursor: pointer;
+    display: block;
+}
+h3{
+    background-color: yellow;
+    padding: 2rex;
+    display: none;
+}
+
+.nav a:active{
+    color: purple
+}
+
+tr:first-child{
+    color: yellowgreen;
+}
+
+td:first-child:hover{
+    color: crimson;
+}
+
+i:first-of-type{
+    color: blue;
+}
+
+i:only-of-type{
+    color: peru;
+}
+
+::selection{
+    color: greenyellow;
+}
+
+.paragraph::first-line{
+    color: red;
+}
+
+.paragraph::first-letter{
+    color: blue;
+}
+
+article::before{
+    content: url("https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif");
+}
+article::after{
+    content: url("https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif");
+}
