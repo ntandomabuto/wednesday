@@ -11,7 +11,7 @@ ul >li{
 
 .nav a{
     text-decoration: none;
-    padding: 2rem;
+    /* padding: 1rem; */
     color: white;
 }
 
@@ -63,11 +63,10 @@ img{
 
 li a{
     color: white;
-    transition: transform linear 1s;
+    transition: 4s;
 }
 
 li a:hover{
-    transform: scale(1,2);
     background-color: white;
     color: black;
 }
